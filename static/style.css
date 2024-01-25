@@ -1,0 +1,41 @@
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Set the font family for the entire body, replace 'Roboto' with your preferred stylish font */
+    /* background: linear-gradient(to right, #4CAF50, #00bcd4); /* Set the background gradient colors, replace these colors with your preferred background gradient */
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center-align text within the body */
+    padding: 10px; /* Add padding around the content */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Set the body height to 100% of the viewport height */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: flex-start; /* Change to flex-start to move content on top */
+    align-items: flex-start; /* Change to flex-start to move content to left*/
+}
+
+/* Timer styling */
+#timer {
+    background: linear-gradient(to right, #bcccfa, #c3b8fb);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+/* Fade-in and fade-out animation */
+.fade-in-out {
+    animation: fadeInOut 2s linear infinite; /* Adjust the duration as needed */
+}
+
+/* Keyframes for fade-in and fade-out animation */
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
