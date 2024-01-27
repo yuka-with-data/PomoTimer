@@ -8,3 +8,17 @@ This Pomodoro Timer is a Python-based application that uses Flask and Pygame to 
 - Sound notifications at the start and end of each session
 - Countdown time display
 - Log decorator for method call tracking
+
+## Installation
+To run this application, you will need Python, Flask and Pygame installed on your system. 
+
+## Prerequisites
+- Python 3.x
+- Flask
+- Pygame
+
+You can install Flask and Pygame using pip:
+```
+pip install Flask pygame
+```
+
