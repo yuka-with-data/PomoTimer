@@ -158,4 +158,4 @@ if __name__ == '__main__':
     timer_thread.start()
     # Run the Flask app in debug mode during development mode
     # Disable it in a production environment for security reasons
-    app.run(debug=True)
+    app.run(debug=False)
