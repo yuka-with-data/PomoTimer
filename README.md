@@ -22,3 +22,19 @@ You can install Flask and Pygame using pip:
 pip install Flask pygame
 ```
 
+## Running the Application
+1. Clone the repository:
+```
+git clone https://github.com/yuka-with-data/PomoTimer.git
+```
+2. Navigate to the cloned repository:
+```
+cd [directory name]
+```
+3. Run the Flask application:
+```
+python app.py
+```
+## Customization
+You can customize the work and break durations by modifying the `work_duration` and `break_duration` variables in the `pomodoro_timer` method of the Class function. 
+
